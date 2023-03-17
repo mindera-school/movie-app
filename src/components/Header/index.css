@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #373b69;
+    justify-content: right;
+    align-items: center;
+}
+
+.searchBar {
+    box-sizing: border-box;
+    color: white;
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: #373b69;
+    border: 2px solid #22254b;
+    border-radius: 50px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.searchBar:focus {
+    background-color: #22254b;
+}

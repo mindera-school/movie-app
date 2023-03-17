@@ -1,0 +1,9 @@
+main {
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px;
+  flex-wrap: wrap;
+  min-height: 92.75vh;
+  justify-content: center;
+  background-color: #22254b;
+}
