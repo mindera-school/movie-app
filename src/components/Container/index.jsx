@@ -14,11 +14,7 @@ const Container = ({ searchTerm }) => {
         movie.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
-    return (
-        <main>
-            {makeCards(filteredMovies)}
-        </main>
-    );
+    return <main>{makeCards(filteredMovies)}</main>;
 };
 
 function makeCards(movies) {

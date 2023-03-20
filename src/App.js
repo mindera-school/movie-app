@@ -23,8 +23,8 @@ function App() {
       .catch((error) => console.log("error", error));
   }, []);
 
-  const handleSearchChange = (event) => {
-    setSearchTerm(event.target.value);
+  const handleSearchChange = (value) => {
+    setSearchTerm(value);
   };
 
   return (
