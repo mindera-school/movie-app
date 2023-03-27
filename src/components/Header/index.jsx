@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import SoonButton from "./SoonButton";
 import "./index.css";
 
-const Header = ({ onSearchChange }) => {
+const Header = ({ onClickMovieListChange, onSearchChange, moviesType }) => {
+
+    const handleSearchSubmit = (e) => {
+        e.preventDefault();
+        const searchTerm = e.target.searchTerm.value;
+        onSearchChange(searchTerm);
+        e.target.searchTerm.value = "";
+    };
+
+    const soonButtonText = (moviesType === "/soon") ? "All Movies" : "Comming Soon";
+
     return (
-        <form
-            className="header"
-            onSubmit={(e) => {
-                e.preventDefault();
-                onSearchChange(e.target.searchTerm.value);
-                e.target.searchTerm.value = "";
-            }}
-        >
+        <form className="header" onSubmit={handleSearchSubmit}>
+            <SoonButton value={soonButtonText} onClick={onClickMovieListChange} />
             <input
                 type="text"
                 placeholder="Search movies by title"
@@ -22,4 +27,3 @@ const Header = ({ onSearchChange }) => {
 };
 
 export default Header;
-

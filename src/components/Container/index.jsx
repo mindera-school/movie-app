@@ -3,14 +3,19 @@ import "./index.css";
 import Card from "../Card";
 import { AllMovies } from "../../App";
 
-const Container = ({ searchTerm }) => {
-    const { myAllMovies } = useContext(AllMovies);
+const Container = ({ moviesType, searchTerm }) => {
+    const { movies, comingSoon } = useContext(AllMovies);
 
-    if (!myAllMovies) {
+    if (!movies || !comingSoon) {
         return <main></main>;
     }
 
-    const filteredMovies = myAllMovies.filter((movie) =>
+
+    const filteredMovies = (moviesType === "/all") 
+    ? movies.filter((movie) =>
+        movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+    ) 
+    : comingSoon.filter((movie) =>
         movie.title.toLowerCase().includes(searchTerm.toLowerCase())
     );
 

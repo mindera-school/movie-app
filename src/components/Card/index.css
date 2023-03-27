@@ -74,7 +74,6 @@ img {
   box-sizing: border-box;
   width: 35px;
   height: 30px;
-  color: orange;
   text-align: center;
   background-color: #292e62;
   box-shadow: 1px 1px 15px 2px orange;
@@ -109,7 +108,7 @@ img {
 }
 
 .crew {
-    margin: 0;
+  margin: 0;
   font-size: 1rem;
   color: white;
 }
@@ -118,4 +117,19 @@ img {
   font-size: 1.2rem;
   font-weight: bold;
   color: white;
+}
+
+.green {
+  color: rgb(0, 255, 0);
+  box-shadow: 1px 1px 15px 2px rgb(0, 255, 0);
+}
+
+.yellow {
+  color: yellow;
+  box-shadow: 1px 1px 15px 2px yellow;
+}
+
+.red {
+  color: red;
+  box-shadow: 1px 1px 15px 2px red;
 }
