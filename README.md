@@ -78,4 +78,11 @@ Button styles:
 
 <img width="670" alt="Screenshot 2023-03-20 at 00 52 06" src="https://user-images.githubusercontent.com/8272736/226222194-72d1284f-b999-4c54-b9e2-4ce2e2f67951.png">
 
+Phase 3 
+### Must have:
+- On clicking a movie, show a modal with the following movie information: Name, year, background image, plot local (using the language selector), genre, stars and languages
+<img width="1649" alt="Screenshot 2023-03-27 at 15 04 47" src="https://user-images.githubusercontent.com/8272736/227973663-ac84301f-b60e-4673-8428-6cb1cb90bf21.png">
+
+Referece: 
+https://getbootstrap.com/docs/5.0/components/modal/#vertically-centered
 
