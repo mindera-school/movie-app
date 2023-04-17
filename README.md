@@ -93,3 +93,6 @@ Criar conta no [Firebase](https://firebase.google.com/)
 - Auth com Firebase
 - Routes: Sign In, Sign up
 
+### Nice to have:
+- Toast showing when user logged in and logged out
+
