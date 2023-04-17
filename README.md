@@ -87,7 +87,7 @@ Referece:
 https://getbootstrap.com/docs/5.0/components/modal/#vertically-centered
 
 # Phase 3
-Criar conta no (Firebase)[https://firebase.google.com/]
+Criar conta no [Firebase](https://firebase.google.com/)
 
 ### Must have:
 - Auth com Firebase
