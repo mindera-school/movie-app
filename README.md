@@ -92,6 +92,7 @@ Criar conta no [Firebase](https://firebase.google.com/)
 ### Must have:
 - Auth com Firebase
 - Routes: Sign In, Sign up
+- Route: Favorites (only show option on header when user is logged in)
 
 ### Nice to have:
 - Toast showing when user logged in and logged out
