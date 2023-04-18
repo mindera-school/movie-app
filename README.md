@@ -86,7 +86,7 @@ Button styles:
 Referece: 
 https://getbootstrap.com/docs/5.0/components/modal/#vertically-centered
 
-# Phase 3
+# Phase 4
 Create account on [Firebase](https://firebase.google.com/)
 
 ### Must have:
