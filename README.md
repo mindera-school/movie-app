@@ -104,3 +104,6 @@ Firestore [Get started](https://firebase.google.com/docs/firestore?hl=pt-br)
 - Plug Firestore
 - User can add movies to favorites
 - List favorite movies by user
+
+### Nice to have:
+- Users can remove movies from favorites
