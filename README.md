@@ -106,4 +106,4 @@ Firestore [Get started](https://firebase.google.com/docs/firestore?hl=pt-br)
 - List favorite movies by user
 
 ### Nice to have:
-- Users can remove movies from favorites
+- Users can remove movies from favorites (Favorite page only)
