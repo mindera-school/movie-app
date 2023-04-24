@@ -97,3 +97,10 @@ Create account on [Firebase](https://firebase.google.com/)
 ### Nice to have:
 - Toast showing when user logged in and logged out
 
+# Phase 5
+
+Firestore [Get started](https://firebase.google.com/docs/firestore?hl=pt-br)
+### Must have:
+- Plug Firestore
+- User can add movies to favorites
+- List favorite movies by user
